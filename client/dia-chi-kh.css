@@ -1,0 +1,54 @@
+.main .title-myacc h1{
+	margin-left: 10%;
+}
+h3{
+	margin-left: 10%;
+	font-weight: bold;
+}
+.table-dia-chi{
+	width: 80%;
+	margin-left: 10%;
+}
+.table-dia-chi th{
+	font-size: 1.5em;
+}
+.table-dia-chi td{
+	font-size: 1.5em;
+}
+.table-dia-chi .th-stt{
+	width: 10%;
+}
+.table-dia-chi td,.table-dia-chi th{
+	text-align: center;
+}
+.table-dia-chi .td-dc{
+	text-align: left;
+	text-transform: capitalize;
+}
+.table-dia-chi, th, td{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+.a-add-dc{
+	margin-left: 10%;
+	/*margin-top: 10px;*/
+	font-size: 1.5em;
+}
+
+.ad-dia-chi input{
+	margin-left: 10%;
+	width: 60%;
+	outline: none;
+	border: none;
+	border-bottom: 0.5px solid gray;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+.ad-dia-chi input:hover{
+	border-bottom: 1px solid red;
+}
+.btn-add{
+	font-size: 1.5em;
+}

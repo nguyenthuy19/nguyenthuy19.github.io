@@ -1,0 +1,652 @@
+body{
+	font-family: 'Roboto', sans-serif;
+
+}
+.navbar-inverse{
+	border-bottom: none;
+}
+.navbar-inverse .navbar-brand{
+	font-family: all;
+	font-size: 2em;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: white;
+	cursor: default;
+}
+/*.navbar-right .btn-admin{
+	font-size: 1.2em;
+	font-weight: 600;
+	color: white;
+	margin-top: 10px;
+}
+.navbar-right .admin-dropdown{
+	display: none;
+}
+.navbar-right .btn-admin:hover .admin-dropdown{
+	display: inline;
+	color: red;
+}*/
+
+.dropbtn-admin {
+  background-color: #04AA6D;
+  font-weight: bold;
+  color: white;
+  padding: 16px;
+  text-transform: uppercase;
+  border: none;
+}
+
+.dropdown-admin {
+  position: relative;
+  display: inline-block;
+  cursor: default;
+}
+
+.dropdown-admin-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+  z-index: 1;
+}
+
+.dropdown-admin-content a {
+  color: black;
+  font-weight: bold;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-admin-content .dropdown-logout{
+	color:red;
+}
+
+.dropdown-admin-content a:hover {background-color: #ddd;}
+
+.dropdown-admin:hover .dropdown-admin-content {display: block;}
+
+.dropdown-admin:hover .dropbtn-admin {background-color: #3e8e41;}
+/**/
+
+.menu{
+	height: 90vh;
+	background-color: #222;
+	width: 20%;
+	float: left;
+	color: white;
+	margin-top: 50px;
+	overflow: scroll;
+	position: fixed;
+	float: left;
+}
+.avatar{
+	margin-top: 20px;
+	display: flex;
+}
+.avatar a{
+	margin-left: 10px;
+	width: 50%;
+}
+.avatar .name{
+	color: white;
+	font-size: 1.5em;
+	
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+.avatar a img{
+	width: 80%;
+	border-radius: 50%;
+}
+.list-menu{
+	list-style-type: none;
+
+}
+.list-menu li{
+	margin-top: 20px;
+	border-bottom: 1px solid white;
+	margin-left: -45px;
+}
+.list-menu li a{
+	font-size: 2em;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+.list-menu .li-logout a{
+	color: #C80000;
+	font-size: 1.5em;
+}
+.list-menu .li-logout:hover a{
+	color: red	;
+}
+
+										/*TRANG QUẢN TRỊ*/
+
+.content{
+	width: 80%;
+	float: right;
+	margin-top: 50px;
+}
+.content .title-trang-chinh {
+	font-size: 2em;
+	background-color: gray;
+	color: white;
+	border-radius: 5px;
+	width: 15%;
+	text-align: center;
+	/*margin: 10px;*/
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+.content .title-loaihanghoa .content-admin{
+	width: 50%;
+	/*border: 1.5px solid purple;*/
+	border-left: 2px solid purple ;
+	margin-left: 5%;
+	margin-top: 3%;
+}
+.content .title-loaihanghoa .content-admin h1{
+	text-transform: uppercase;
+}
+.content .title-loaihanghoa .content-admin h3{
+	text-transform: capitalize;
+	font-family: all;
+	text-align: left;
+}
+				/*QUẢN CÁO TRANG QUẢN TRỊ*/
+.advertisement{
+	font-weight: bold;
+	margin-top: 10%;
+}
+.advertisement .ad-gird{
+	/*align-items: center;*/
+	text-align: center;
+	font-family: 'Carattere', cursive;
+	/*border-left: 2px solid rgb(237, 20, 93);*/
+	box-shadow: 0 0 10px rgb(0,0,0,0.4);
+	width: 22%;
+	margin-left: 3%;
+}
+.advertisement .ad-gird .ad-icon{
+	font-size: 3.5em;
+	color: #36254f;
+}
+
+.advertisement .ad-gird .ad-content h4{
+	color: #36254f;
+	font-weight: bold;
+	cursor: default;
+}
+.ad-title h4{
+	font-weight: bold;
+	color: red;
+	text-align: center;
+	cursor: default;
+	margin-top: 5%;
+}
+
+
+
+
+/*LOẠI HÀNG HÓA*/
+
+.title-loaihanghoa{
+	text-align: center;
+
+}
+.title-loaihanghoa h1{
+	font-family: all;
+	color: black;
+	font-weight: 600;
+	text-transform: uppercase	;
+}
+.hien-thi-loai-hang{
+	height: 50vh;
+	overflow-y: scroll;
+
+}
+.table-loai-hang{
+	font-size: 2em;
+	font-family: all;
+	margin: 2% 5% 0% 5%;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	width: 90%;
+}
+.table-loai-hang th,
+.table-loai-hang td,
+.table-loai-hang tr{
+	border: 1px solid white;
+	font-weight: bold;
+}
+.table-loai-hang .stt-loai-hang{
+	width: 10%;
+	text-align: center;
+}
+.table-loai-hang th{
+	text-align: center;
+	background-color: #A4A4A4;
+}
+.table-loai-hang tr td{
+	background-color: #E6E6E6;
+}
+.table-loai-hang .th-ma-loai{
+	width: 30%;
+	padding-left: 50px;
+	/*text-align: center;*/
+}
+.table-loai-hang .th-ten-loai{
+	padding-left: 50px;
+	
+}
+.table-loai-hang th{
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.table-loai-hang .edit-loai-hang{
+	width: 8%;
+	text-align: center;
+}
+.table-loai-hang .icon-remove-loai-hang{
+	text-align: center;
+	width: 8%;
+}
+
+.table-loai-hang tr a .glyphicon-remove-sign{
+	color: red;
+}
+.table-loai-hang tr a:hover .glyphicon-remove-sign{
+	color: #B40404;
+}
+.hr-loai-hang{
+	margin-top: 0;
+	border: 2px solid black;
+}
+.add-loai-hang{
+	margin-left: 5%;
+	font-family: all;
+}
+.title-add-loai-hang{
+	border-radius: 5px;
+	background-color: #0B2F3A;
+	height: 50px;
+	box-shadow: 0 0 15px rgba(0,0,0,0.6);
+	width: 35%;
+	text-align: center;
+}
+.add-loai-hang h3{
+	font-weight:bold;
+	text-transform: uppercase;
+	font-size: 2em;
+	padding-top: 7px;
+	color: white;
+}
+.form-add-loai-hang{
+	margin-top: 2%;
+}
+.form-add-loai-hang p{
+	margin-top: 2%;
+}
+.form-add-loai-hang .add-ma-loai p{
+	font-size: 1.5em;
+	font-weight: bold;
+}
+.form-add-loai-hang .add-ma-loai input, .add-ten-loai input{
+	border: none;
+	outline: none;
+	border-bottom: 1px solid #610B5E;
+	width: 50%;
+	font-size: 1.5em;
+	margin-top: -1%;
+	font-weight: bold;
+}
+.form-add-loai-hang .add-ten-loai p{
+	font-size: 1.5em;
+	font-weight: bold;
+}
+.form-add-loai-hang .add-ma-loai input:hover, .add-ten-loai input:hover{
+	width: 60%;
+	border-bottom: 2px solid red;
+  transition: all 0.3s linear;
+}
+.btn-add-loai-hang{
+	font-size: 1.9em;
+	background-color: #B43104;
+	color: white;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+.btn-add-loai-hang:hover{
+font-size: 2em;
+}
+
+
+
+/*HÀNG HÓA*/
+/*.form-hang-hoa{
+	margin-left: 10%;
+}*/
+.select-loai-hang{
+	display: flex;
+}
+.select-1{
+	border: none;
+	box-shadow: 0 0 15px rgba(0,0,0,0.6);
+	font-size: 1.5em;
+	font-weight: bold;
+	background-color: #483D8B;
+	height: 30px;
+	margin: 2%;
+	color: white;
+}
+.select-1:hover{
+	font-size: 1.6em;
+
+}
+.add-ghi-chu{
+	width: 50%;
+}
+.hien-thi-hang-hoa{
+	font-family: all;
+	font-size: 1.2em;
+
+}
+.hien-thi-hang-hoa .table-hang-hoa{
+	box-shadow: 0 0 15px rgba(0,0,0,0.6);
+	width: 100%;
+}
+.hien-thi-hang-hoa .table-hang-hoa th,
+.hien-thi-hang-hoa .table-hang-hoa tr,
+.hien-thi-hang-hoa .table-hang-hoa td{
+	border: 1px solid white;
+	text-transform: capitalize;
+	
+}
+.hien-thi-hang-hoa .table-hang-hoa th{
+	background-color: #A4A4A4;
+	font-size: 1.5em;
+	text-align: center;
+}
+.hien-thi-hang-hoa .table-hang-hoa tr td{
+	background-color: #E6E6E6;
+}
+.form-add-loai-hang .add-ten-loai-hinh{
+	display: flex;
+}
+.form-add-loai-hang .add-ten-loai-hinh p{
+	font-size: 1.5em;
+	font-weight: bold;
+}
+.form-add-loai-hang .add-ten-loai-hinh input{
+	/*border: 1px dotted blue;*/
+	padding-top: 2.5%;
+	margin-left: 2%;
+	outline: none;
+}
+
+/*.form-add-loai-hang .add-ten-loai-hinh input#file-upload-button{
+	color: red;
+}*/
+.hien-thi-hang-hoa .table-hang-hoa .edit-hang-hoa{
+	text-align: center;
+	/*color: red;*/
+}
+.hien-thi-hang-hoa .table-hang-hoa .remove_hang_hoa{
+	text-align: center;
+}
+.hien-thi-hang-hoa .table-hang-hoa .remove_hang_hoa a{
+	color: red;
+	/*text-align: center;*/
+}
+.hien-thi-hang-hoa .table-hang-hoa .remove_hang_hoa a:hover{
+	color: #8A0808;
+	/*text-align: center;*/
+}
+.quy-cach{
+	width: 7%;
+}
+.so-luong-hang{
+	width: 7%;
+}
+.th-select-hinh{
+	width: 10%;
+}
+.ten-hang{
+	width: 30%;
+}
+/*.td-anh-hh{
+	height: ;
+}*/
+.td-anh-hh img{
+	width: 100%;
+	height: 100%;
+}
+
+/*NHÂN VIÊN*/
+.hien-thi-nhan-vien{
+	height: 50vh;
+	overflow-y: scroll;
+	font-family: all;
+	font-size: 1.2em;
+	font-weight: bold;
+	margin: 2% 0% 0% 0%;
+}
+.hien-thi-nhan-vien .table-nhan-vien{
+	width: 100%;
+	box-shadow: 0 0 15px rgba(0,0,0,0.6);
+}
+
+.hien-thi-nhan-vien .table-nhan-vien th, .hien-thi-nhan-vien .table-nhan-vien tr td{
+	border: 1px solid white;
+
+}
+.hien-thi-nhan-vien .table-nhan-vien th{
+	background-color: #A4A4A4;
+	font-size: 1.5em;
+	text-align: center	;
+
+	
+}
+.hien-thi-nhan-vien .table-nhan-vien tr td{
+	background-color:#E6E6E6 ;
+	padding-left: 2%;
+}
+.xem-nhan-vien{
+	text-align: center;
+}
+
+/*KHÁCH HÀNG*/
+
+.hien-thi-khach-hang{
+	font-family: all;
+	font-size: 1.2em;
+
+}
+.hien-thi-khach-hang .table-khach-hang{
+	box-shadow: 0 0 15px rgba(0,0,0,0.6);
+	width: 100%;
+}
+.hien-thi-khach-hang .table-khach-hang th,
+.hien-thi-khach-hang .table-khach-hang tr,
+.hien-thi-khach-hang .table-khach-hang td{
+	border: 1px solid white;
+	text-transform: capitalize;
+	
+}
+.hien-thi-khach-hang .table-khach-hang th{
+	background-color: #A4A4A4;
+	font-size: 1.5em;
+	text-align: center;
+}
+.hien-thi-khach-hang .table-khach-hang tr td{
+	background-color: #E6E6E6;
+	padding-left: 2%;
+}
+.ms-khach-hang{
+	width: 5%;
+}
+.hien-thi-khach-hang .table-khach-hang tr .xem-khach-hang{
+	text-align: center;
+	padding-left: 0%;
+}
+.ds-khach-hang{
+	color: white;
+}
+.hien-thi-khach-hang .table-khach-hang .format-email{
+	text-transform: lowercase;
+}
+.td-nv{
+	text-transform: uppercase;
+}
+
+
+/*ĐẶT HÀNG*/
+
+.hien-thi-don-hang{
+	font-family: all;
+	font-size: 1.2em;
+
+}
+.hien-thi-don-hang .table-don-hang{
+	box-shadow: 0 0 15px rgba(0,0,0,0.6);
+	width: 100%;
+}
+.hien-thi-don-hang .table-don-hang th,.hien-thi-don-hang
+.table-don-hang tr,
+.hien-thi-don-hang .table-don-hang td{
+	border: 1px solid white;
+	text-transform: capitalize;
+	
+}
+.hien-thi-don-hang .table-don-hang th{
+	background-color: #A4A4A4;
+	font-size: 1.5em;
+	text-align: center;
+}
+.hien-thi-don-hang .table-don-hang tr td{
+	background-color: #E6E6E6;
+	padding-left: 2%;
+}
+.hien-thi-don-hang .table-don-hang .td-center{
+	text-align: center;
+	padding-left: 0%;
+}
+.hien-thi-don-hang .table-don-hang .td-xoa{
+	text-align: center;
+	padding-left: 0%;
+}
+.hien-thi-don-hang .table-don-hang .td-xoa a{
+	color: red;
+}
+.hien-thi-don-hang .table-don-hang .td-xoa a:hover{
+	color: #610B0B;
+}
+
+/*THÔNG TIN NHÂN VIÊN*/
+.hr-change-nv{
+	border: 1px solid purple;
+}
+.info-nhan-vien-content{
+	font-family: all;
+	font-weight: bold;
+	font-size: 2em;
+	margin-left: 10%;
+	display: flex;
+	margin-top: 5%;
+	color: #610B21;
+}
+.info-nhan-vien-content .img-info{
+	width: 35%;
+	/*height: 10%;*/
+	/*border: 1px solid black;*/
+}
+.info-nhan-vien-content .img-info img{
+	/*height: 50%;
+	width: 80%;*/
+	height: 260px;
+	width: 230px;
+}
+/*.info-nhan-vien-content .select-info {
+	border: 2px solid black;
+}*/
+.change-nv{
+	margin-left: 10%;
+}
+.title-change-nv .btn-add-nv{
+	margin-left: 3%;
+	background-color: gray;
+	font-size: 2.5em;
+	box-shadow: 0px 2px 5px 5px rgba(0,0,0,0.3);
+	font-weight: bold;	
+}
+.title-change-nv .btn-add-nv:hover{
+	font-size: 2.6em;
+	background-color: #BDBDBD;
+}
+.content .info-nhan-vien-content .select-info table tr{
+	vertical-align: text-top;
+	
+}
+.select-info .table-info-nv{
+	width: 100%;
+	/*border: 1px solid black;*/
+}
+.table-info-nv tr .td-1-select-info{
+	width: 140px;
+	color: purple;
+}
+
+.change-select-manv{
+	display: flex;
+}
+.ttht-nv{
+	color: #610B0B;
+	font-weight: bold;
+	font-family: all;
+}
+.title-change-nv .btn-remove-nv{
+	background-color: red;
+	color: white;
+}
+.title-change-nv .btn-remove-nv:hover{
+	background-color: #610B0B;
+}
+.tb-xoa-nv{
+	text-align: center;
+	background-color: #FE2E64;
+	font-family: all;
+	font-weight: bold;
+	color: white;
+	margin: 2% 30% 10% 20%;
+	border: 3px solid #B40404;
+	width: 50%;
+	/*display: flex;*/
+}
+.tb-xoa-nv .btn-huyxoa-nv{
+	color: black;
+	font-size: 1.5em;
+	/*margin-left: -20%;*/
+}
+.tb-xoa-nv .btn-huyxoa-nv:hover{
+	font-size: 1.6em;
+	border: 1px solid black;
+}
+.tb-xoa-nv .btn-xoa-nv{
+	font-size: 1.5em;
+	margin-left: 20%;
+	background-color: #B40404;
+	color: white;
+}
+.tb-xoa-nv .btn-xoa-nv:hover{
+	font-size: 1.6em;
+	border: 1px solid white;
+}
+
+
+/*THÔNG TIN KHÁCH HÀNG*/
+.table-info-nv tr .td-1-select-info_kh{
+	width: 180px;
+	color: purple;
+}

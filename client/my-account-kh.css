@@ -1,0 +1,59 @@
+.main .info-nv .info table tr .td-left{
+	/*border: 1px solid red;*/
+	width: 25%;
+	vertical-align: top;
+}
+.title-change-nv button{
+	cursor: pointer;
+	font-size: 1.5em;
+	font-weight: bold;
+	background-color: #50c7c7;
+	color: red;
+	margin-left: 15%;
+	/*border: 1px solid black;*/
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.change-nv{
+	margin-left: 10%;
+}
+.add-ten-loai input{
+	border: none;
+	outline: none;
+	border-bottom: 1px solid #610B5E;
+	width: 50%;
+	font-size: 1.5em;
+	margin-top: -1%;
+	font-weight: bold;
+	color: #600000;
+}
+.ttht-nv{
+	color: #600000;
+}
+.add-ten-loai input:hover{
+	width: 60%;
+	border-bottom: 2px solid red;
+	transition: all 0.5s ease;
+}
+.add-ma-loai p{
+	font-size: 1.5em;
+	font-weight: bold;
+}
+.add-ten-loai p{
+	font-size: 1.5em;
+	font-weight: bold;
+}
+.add-ten-loai{
+	margin-top: 3%;
+}
+.add-ma-loai{
+	margin-top: 3%;
+}
+.btn-add-loai-hang{
+	font-size: 2em;
+	margin-top: 2%;
+	background-color: gray;
+}
+
+
+/*Địa chỉ khách hàng*/

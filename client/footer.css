@@ -1,0 +1,28 @@
+footer{
+	background-color: #212121;
+	height: auto;
+	color: #fff;
+}
+footer .danhmuc{
+	text-transform: uppercase;
+}
+footer .danhmuc ul{
+	list-style-type: none;
+}
+footer .danhmuc ul li{
+	margin-top: 2%;
+}
+.chantrang{
+	height: 40px;
+	background-color: red;
+}
+.fb{
+	display: flex;
+}
+.fb img{
+	width: 40px;
+	border-radius: 10px;
+}
+.fb .ins{
+	margin-left: 10px;
+}

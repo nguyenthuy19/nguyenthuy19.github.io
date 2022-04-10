@@ -1,0 +1,88 @@
+body{
+	color: black;
+	font-weight: bold;
+}
+h1{
+	color: red;
+}
+
+.hr-cart{
+	border-bottom: 1px solid red;
+	font-weight: bold;
+	width: 20%;
+	float: left;
+}
+.table-cart{
+	width: 100%;
+}
+.table-cart th{
+	text-align: center;
+	font-size: 1.5em;
+}
+.table-cart td, .table-cart tr{
+	font-size: 1.2em;
+}
+.table-cart , .table-cart th, .table-cart td{
+	border-collapse: collapse;
+	border: 1px solid black;
+}
+.tr-sp td{
+	text-align: center;
+}
+.th-ten{
+	width: 40%;
+}
+
+.th-sl{
+	width: 13%;
+}
+.td-sl input{
+	width: 50%;
+	text-align: center;
+	border-radius: 10px;
+}
+.th-thanh-tien{
+	width: 13%;
+}
+.tr-sp .td-ten{
+	text-align: left;
+}
+.th-stt{
+	width: 4%;
+}
+.td-hinh{
+	width: 15%;
+}
+.td-hinh img{
+	width: 90%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	/*margin-top: 5px;*/
+}
+.td-xoa a{
+	color: red;
+}
+.td-xoa a:hover{
+	color: #590410;
+}
+.btn-update-cart{
+	float: right;
+	margin-top: 5px;
+	font-size: 1.2em;
+	text-transform: uppercase;
+}
+.click-dc{
+
+}
+.click-dc select, .click-dc a{
+	font-size: 1.5em;
+}
+.btn-dat-hang{
+	margin-top: 30px;
+	font-size: 2em;
+	background-color: red;
+	color: white;
+}
+.btn-dat-hang:hover{
+	font-size: 2.1em;
+}

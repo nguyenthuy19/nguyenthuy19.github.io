@@ -1,0 +1,21 @@
+.td-anh{
+	width: 15%;
+	text-align: center;
+}
+.td-anh img{
+	width: 100%;
+	margin-left: -15%;
+	margin-top: 2%;
+}
+.td-ten{
+	width: 40%;
+}
+.td-gia{
+	width: 15%;
+}
+.td-thanh-tien{
+	width: 15%;
+}
+.td-sl{
+	width: 10%;
+}

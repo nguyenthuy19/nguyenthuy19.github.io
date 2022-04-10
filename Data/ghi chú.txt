@@ -1,0 +1,2 @@
+Tài khoản Admin: ADMIN, pass: admin
+tài khoản nhân viên 1: NV001, pass: dpcshop123

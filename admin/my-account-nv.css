@@ -1,0 +1,99 @@
+
+.main{
+	width: 90%;
+	border: 1.5px solid black;
+	border-top: none;
+	/*border-bottom: none;*/
+	margin-left: 5%;
+}
+/*.title-myacc{
+	text-align: center;
+}*/
+.title-myacc h1{
+	/*text-align: center;*/
+	margin-left: 20%;
+	text-transform: uppercase;
+	color: #600000;
+}
+.main .info-nv{
+	margin-top: 5%;
+	font-weight: bold;
+	display: flex;
+	margin-left: 15%;
+}
+.main .info-nv .img-nv{
+	width: 25%;
+}
+.img-nv img{
+	width: 100%;
+}
+
+.info{
+	margin-left: 5%;
+	text-transform: capitalize;
+	font-size: 2em;
+}
+.info table tr .td-left{
+	width: 30%;
+	color: black;
+}
+tr{
+	color: #600000;
+}
+
+.hr-acc{
+	border: 2px solid black;
+}
+.btn-add-nv{
+	margin-left: 10%;
+}
+
+.mess-mk{
+	border: 1px solid black;
+	width: 32%;
+	height: 100px;
+	text-align: center;
+	margin-left: 34%;
+	background-color: #c299ad;
+	box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+.mess-mk h2{
+	text-transform: lowercase;
+}
+.mess-mk input{
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.2);	
+	outline: none;
+	font-size: 1.2em;
+	margin-left: -10%;
+}
+.mess-mk .btn-mk{
+	font-size: 1.2em;
+	font-weight: bold;
+	background-color: #a3969d;
+	cursor: pointer;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.2);
+	margin-left: 2%;
+}
+.mess-err{
+	position: inherit;
+	text-align: center;
+	color: red;
+}
+.title-myacc{
+	display: flex;
+}
+.title-myacc .logout{
+	float: right;
+	margin-left: 15%;
+	margin-top: 2%;
+}
+.title-myacc .logout a{
+	/*border: 1px solid red;*/
+	/*margin-top: 10%;*/
+	font-size: 1.5em;
+	text-decoration: none;
+	color: red;
+}
+.title-myacc .logout a:hover{
+	font-weight: bold;
+}

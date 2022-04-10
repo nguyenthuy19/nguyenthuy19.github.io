@@ -1,0 +1,453 @@
+
+body{
+	background-color: #fff;
+	padding-top: 60px;
+}
+.navbar .container-fluid{
+	background-color: rgb(237, 20, 93);
+	box-shadow: 0 0 5px rgba(0,0,0,0.6);
+	/*color: #980000;*/
+}
+.icon-bar{
+	background-color: black;
+}
+.dpcshop-brand{
+	height: 200%;
+	margin-top: -10px;
+	transform: skew(-15deg);
+}
+.dpcshop-brand:hover{
+	height: 210%;
+	transform: skew(15deg);
+	transition: all 0.5s linear;
+	
+}
+.navbar .container-fluid ul li a{
+	/*chỗ này*/
+	text-transform: uppercase;
+	color: white; 
+	font-size: 1em;
+	font-weight: bold;
+	font-family: Helvetica, Arial, sans-serif;
+}
+.navbar .container-fluid ul li a:hover{
+	background-color: rgb(237, 20, 93);
+	color: white;
+	font-size: 1.1em;
+	margin-top: -1px;
+	transition: color 0s ease, font-size 0.4s linear;
+}
+.drop-sp:hover{
+	color: black;
+}
+#search1{
+	width: 350px;
+	margin-top: 4px;
+	margin-left: 30px;	
+}
+#search-input{
+	height: 28px;
+	/*margin-top: auto;
+	margin-bottom: auto;*/
+}
+#search-button{
+	height: 28px;
+}
+/*xem lại chỗ này*/
+.carousel-inner>.item {
+    -webkit-transition: -webkit-transform 1.2s ease-in-out !important;
+    -o-transition: -o-transform 1.2s ease-in-out !important;
+    transition: transform 1.2s ease-in-out !important;
+}
+.menu-brand{
+	color: #fff;
+	font-size: 1.25em;
+	font-weight: bold;
+	height: 40px;
+	background-color: rgb(237, 51, 113); 
+	/*color: black;*/
+	padding-left: 20px;
+	padding-top: 10px;
+	/*cursor: pointer;*/
+	cursor: default;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	/*box-shadow: 0 0 5px rgba(0,0,0,0.6);*/
+}
+.menu-list{
+	background-color: #f5dada;
+	margin-top: 0px;
+	
+}
+.menu-list ul{
+	list-style-type: none !important;
+}
+.menu-list ul li{
+	padding-top: 20px;
+	border-bottom: 0.5px dotted black;
+	width: 100%;
+	margin-left: -20px;
+}
+.menu-list ul li:hover{
+	padding-top: 23px;
+	transition: all 0.3s linear;
+}
+.menu-list ul li a{
+	color: #600000;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+.menu-list ul li a:hover{
+	color: red;
+	transition: color 0.2s linear;
+}
+.tieu-de{
+	color: black;
+	font-weight: bold;
+	font-size: 1.2em;
+	animation: doimauchu linear 1.5s infinite;
+}
+.tieu-de:hover{
+	cursor: default;
+}
+@keyframes doimauchu{
+	0%{
+		color: 	#8B0000;
+	}
+	25%{
+		color: #FF6347;
+	}
+	50%{
+		color: #006400 ;
+	}
+	75%{
+		color: #BDB76B;
+	}
+}
+.tieu-de1{
+	color: black;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+/*advertisement*/
+.advertisement{
+	font-weight: bold;
+	/*margin-top: 2%;*/
+	/*border: 1px solid black;*/
+}
+.advertisement .ad-gird{
+	/*align-items: center;*/
+	text-align: center;
+	font-family: 'Carattere', cursive;
+	/*border-left: 2px solid rgb(237, 20, 93);*/
+	box-shadow: 0 0 10px rgb(0,0,0,0.2);
+	width: 22%;
+	margin-left: 3%;
+}
+.advertisement .ad-gird .ad-icon{
+	font-size: 3.5em;
+	color: rgb(237, 20, 93);
+}
+
+.advertisement .ad-gird .ad-content h4{
+	color: red;
+	font-weight: bold;
+	cursor: default;
+}
+.ad-title h4{
+	font-weight: bold;
+	color: red;
+	text-align: center;
+	cursor: default;
+	margin-top: 5%;
+}
+
+#mycarousel, .carousel{
+	margin-top: 2%;
+	border-bottom: 2px solid rgb(237, 20, 93);
+}
+.banner .carousel .carousel-inner .item img{
+	height: 290px;
+	width: 100%;
+} 
+
+
+.title-sp{
+	font-family: all;
+	font-weight: 600;
+	display: flex;
+	background-color: #DEB887;
+	color: black;
+	margin-top: 0px;
+	box-shadow: 0 0 5px rgba(0,0,0,0.8);
+	/*height: 5vh;*/
+}
+.title-sp .title-brand{
+	font-size: 2em;
+	margin-left: 3%;
+	width: 20%;
+}
+.title-sp .filter{
+	margin-left: 2%;
+	padding-top: 1%;
+	display: flex;
+	width: 80%;
+}
+.title-sp .filter .filter-gia{
+	margin-left: 2%;
+	color: black;
+}
+.title-sp .filter .option-gia{color: black;}
+.title-sp .filter .btn-ban-chay{
+	margin-left: 20px;
+	margin-top: -15px;
+	color: black;
+}
+.title-sp .filter .btn-ban-chay:hover{border: 1px solid red;}
+.title-sp .filter .option-gia .btn-option-gia{
+	margin-top: -15px;
+	background-color: orange;
+	border: none;
+}
+.title-sp .filter .option-gia .btn-option-gia:hover{
+	font-size: 1.1em;
+	border: 1px solid red;
+}
+/*XEM THÊM DANH MỤC*/
+.dropbtn-admin {
+  /*background-color: #04AA6D;*/
+  font-weight: bold;
+  color: black;
+  padding: 16px;
+  font-size: 1.2em;
+  border: none;
+  margin-left: -20%;
+  cursor: pointer;
+}
+
+.dropdown-admin {
+  position: relative;
+  display: inline-block;
+  cursor: default;
+}
+
+.dropdown-admin-content {
+  /*font-size: 1.2em;	*/
+  display: none;
+  cursor: pointer;
+  position: absolute;
+  background-color: #f5dada;
+  width: 184%;
+  /*min-width: 160px;*/
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+  z-index: 1;
+}
+
+/*.dropdown-admin-content a {
+  color: black;
+  font-weight: bold;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}*/
+
+.dropdown-admin:hover .dropdown-admin-content {display: block;}
+
+
+/*SẢN PHẨM*/
+
+.product-grid{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.5s ease 0s;
+	/*border:1px solid #CCC;*/
+	border: none;
+	margin-top: 25px;
+	height:365px ;
+}
+.product-grid:hover{ box-shadow: 0 0 10px rgba(0,0,0,0.6); }
+.product-grid .product-image{ 
+	overflow: hidden;
+	/*height: 80%;*/
+}
+.product-grid .product-image a{ 
+	display: block; 
+}
+.product-grid .product-image img{
+    width: 200px;
+    height: 240px;
+    transition: all 0.5s ease 0s;
+}
+.product-grid:hover .product-image img{ 
+	transform: scale(1.1); /*phóng to*/
+}
+.product-grid .product-content{
+    padding: 12px 12px 15px 12px;
+    transition: all 0.5s ease 0s;
+}
+.product-grid .product-content .title{
+	text-align: left;
+}
+.product-grid:hover{
+	background-color: #ebe1e1;
+}
+.product-grid:hover .product-content{ 
+	transform: scale(1.1);
+}
+.product-grid .title{
+    font-size: 1.2em;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin: 0 0 10px;
+    transition: all 0.3s ease 0s;
+}
+.product-grid .title a{
+	text-decoration: none;
+	color: red;
+}
+
+.discount{
+	text-decoration: line-through;
+}
+.fell{
+	font-size: 1.2em;
+	font-weight: 600;
+	margin-left: 7px;
+}
+.product-grid .product-control{
+	display:flex;
+	/*text-align: center;*/
+	font-size: 1.8em;
+	list-style-type: none;
+	margin-top: -9px;
+	/*vertical-align: middle;*/
+}
+
+.product-grid .product-control li button{
+	font-size: 0.6em;
+	background-color: rgb(205 4 70);
+	border: 1px solid red;
+	/*margin-top: 5px;*/
+	margin-left: 25px;
+	font-weight: bold;
+	color: white;
+}
+.product-grid .product-control li button:hover{
+	/*font-size: 0.65em;*/
+	background-color: rgb(161 9 59);
+
+}
+.product-grid .product-control .add-cart{
+	/*width: 40%;*/
+	/*float: left	;*/
+	margin-left: -30px;
+	background-color: rgb(205 4 70);
+	font-weight: bold;
+	border: none;
+	color: white;
+	font-size: 0.6em;
+}
+.product-grid .product-control .add-cart:hover{
+	background-color: rgb(161 9 59);
+}
+/*PHÂN TRANG*/
+.pagination-page{
+	text-align: center;
+}
+
+/*FOOTER*/
+footer{
+	
+}
+
+
+				/*CHI TIẾT SẢN PHẨM*/
+.content-ct{
+	height: auto;
+}				
+.content-ct h1{
+	color: rgb(205 4 70);
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.hr-ct{
+	border-bottom: 1.5px solid rgb(205 4 70);
+	width: 60%;
+}
+.hr-ct-1{
+	border-top: 1.5px dotted rgb(205 4 70);
+}
+.content-ct .chi-tiet-sp{
+	/*border: 1px solid red;*/
+	display: flex;
+	margin-top: 2%;
+}
+/*.img-chi-tiet{
+	width: 50%;
+}*/
+.img-chi-tiet img{
+	width: 90%;
+	padding-top: 4%;
+}
+.chi-tiet-sp .img-content-ct{
+	/*margin-top: -5%;*/
+	font-family: inherit;
+	text-transform: capitalize;
+	font-weight: normal;
+}
+.chi-tiet-sp .gia-ct-sp{
+	display: flex;
+	margin-top: -3%;
+}
+.h3-gia{
+	color: red;
+}
+.kho{
+	display: flex;
+	text-transform: none;
+	color: green;
+}
+.kho .sl-kho{
+	color: red;
+	margin-left: 2%;
+}
+.oder-sl{
+	display: flex;
+}
+.oder-sl input{
+	width: 10%;
+	outline: none;
+	border: 2px solid rgb(205 4 70);
+	margin-left: 3%;
+	text-align: center;
+	font-weight: bold;
+}
+.oder-sl input:hover{
+	border: 3px solid rgba(205, 3, 70, 0.8);
+}
+.oder-sl button{
+	background-color: rgb(205 4 70) ;
+	border: none;
+	color: white;
+	font-size: 1em;
+	font-weight: bold;
+	border-radius: 5px;
+	margin-left: 1%;
+}
+.oder-sl button:hover{
+	background-color: rgba(205, 3, 70, 0.8);
+	font-size: 1.05em;
+}
+
+.hr-ct-2{
+	border-bottom: 2px solid black;
+}
+
+.sp-tuong-tu .title-ct{
+	font-weight: bold;
+}

@@ -1,0 +1,71 @@
+video{
+	position: fixed;
+	z-index: -1;
+	right: 0;
+	bottom: 0;
+	width: 100%; 
+}
+.container{
+	/*position: fixed;*/
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.login-form{
+	height: 310px;
+	width: 270px;
+	/*border: 2px solid white;*/
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: rgba(0, 0, 0, 0.2);
+	box-shadow: 0 0 10px rgba(255, 255, 255, 1.0);
+	color: #fff;
+	padding-top: -60px;
+}
+
+.login h3{
+	letter-spacing: 1px;
+}
+input{
+	/*color: #fff; không cần vì user or pass sẽ được che thành màu đen*/ 
+	width: 200px;
+	margin-top: 20px;
+	background: transparent;
+	outline: none;
+	padding: 10px;
+	font-size: 13px;
+	border-radius: 30px;
+	box-shadow: 0 0 4px #fff;
+	transition: box-shadow 0.5s ease;
+}
+
+.btn{
+	color: #fff;
+	padding: 5px 20px;
+	margin-top: 30px;
+	background: transparent;
+	border-radius: 30px;
+	box-shadow: 0 0 4px #fff;
+	cursor: pointer;
+}
+
+input[placeholder]:focus{
+	color: #fff;
+}
+input:focus, .btn:hover{
+	box-shadow: 0 0 10px #fff;
+}
+.login-form a{
+	text-decoration: none;
+	color: rgba(255, 255, 255, 0.5);
+	margin-top: 10%;
+	margin-left: 50%;
+}
+.login-form a:hover{
+	color: rgba(255, 255, 255, 0.8);
+	transition: color 0.5s ease;
+}
